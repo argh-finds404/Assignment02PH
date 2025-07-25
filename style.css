@@ -541,3 +541,808 @@
 
 
 
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+ 
+  .nav-bar {
+    max-width: 100%;
+    height: auto;
+    padding: 15px 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-logo {
+    height: 50px;
+    width: 85px;
+  }
+
+  .nav-content {
+    width: auto;
+    margin: 0;
+  }
+
+  .nav-list {
+    width: auto;
+    flex-direction: row;
+    gap: 0;
+    font-size: 1em;
+    padding: 30px;
+    margin: 0;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .not-hidder {
+    display: block;
+  }
+
+
+  .banner {
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    margin-top: 40px;
+    padding: 0 20px;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .banner-details {
+    width: 100%;
+    height: auto;
+    order: 2;
+    text-align: left;
+  }
+
+  .banner-image {
+    width: 100%;
+    height: auto;
+    order: 1;
+    margin-bottom: 30px;
+  }
+
+  .banner-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .banner-title {
+    font-size: 2.5em;
+    height: auto;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .banner-description {
+    font-size: 1.1em;
+    height: auto;
+    margin-top: 20px;
+    text-align: left;
+  }
+ 
+  .plant-section {
+    margin: 60px auto;
+    max-width: 100%;
+    height: auto;
+    padding: 0 20px;
+  }
+
+  .plant-header {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+
+  .plants-title {
+    font-size: 2.2em;
+    height: auto;
+  }
+
+  .plants-description {
+    font-size: 1em;
+    height: auto;
+    max-width: 100%;
+    margin-top: 15px;
+  }
+
+  .plants {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 15px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .plant {
+    width: 100%;
+    height: auto;
+    max-width: 160px;
+    justify-self: center;
+  }
+
+  .plant-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .plant-name {
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .plant-price {
+    font-size: 1.1em;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .plant-buying-button {
+    width: 100%;
+    height: 40px;
+    font-size: 0.9em;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+
+  .flower {
+    flex-direction: column;
+    margin: 60px auto;
+    max-width: 100%;
+    height: auto;
+    padding: 0 20px;
+    gap: 30px;
+  }
+
+  .flower-image-wrapper {
+    width: 100%;
+    order: 1;
+  }
+
+  .flower-store-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .badge {
+    display: none;
+  }
+
+  .flower-details {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    order: 2;
+    padding: 0 20px;
+  }
+
+  .flower-title {
+    font-size: 2.2em;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .flower-list {
+    padding-left: 0;
+  }
+
+  .flower-description {
+    font-size: 1em;
+    margin-top: 15px;
+    text-align: left;
+  }
+ 
+  .deals {
+    margin: 60px auto;
+    max-width: 100%;
+    height: auto;
+    padding: 0 20px;
+  }
+
+  .deal-title {
+    font-size: 2.2em;
+    width: 100%;
+    height: auto;
+  }
+
+  .deal-description {
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+  }
+
+  .plant-images {
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    margin: 60px auto;
+    padding: 0 20px;
+    gap: 20px;
+  }
+
+  .leftside-images {
+    width: 100%;
+    height: auto;
+    gap: 20px;
+  }
+
+  .rightside-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .plant-images-media {
+    width: 100%;
+    height: auto;
+  }
+
+  .bloom-wrapper {
+    top: 50%;
+    left: 50%;
+    font-size: 0.9em;
+  }
+
+  .bloom-plant-name {
+    font-size: 1.1em;
+  }
+
+  .bloom-button {
+    font-size: 0.9em;
+  }
+
+  .ana-wrapper {
+    top: 50%;
+    left: 50%;
+    font-size: 0.9em;
+  }
+
+  .ana-plant-name {
+    font-size: 1.1em;
+  }
+
+  .ana-button {
+    font-size: 0.9em;
+  }
+
+  .zabo-wrapper {
+    top: 50%;
+    left: 50%;
+    font-size: 0.9em;
+  }
+
+  .zabo-plant-name {
+    font-size: 1.8em;
+  }
+
+  .zabo-button {
+    font-size: 1.2em;
+  }
+
+
+  .rightside-image {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px;
+  }
+
+  .rightside-image .black-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 14px;
+    z-index: 1;
+  }
+
+  .zabo-plant {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 14px;
+  }
+
+
+  .down-banner {
+    max-width: 100%;
+    height: auto;
+    margin: 60px auto 0;
+  }
+
+  .down-banner-img {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    object-fit: cover;
+  }
+
+  .down-banner-details {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .down-banner-title {
+    font-size: 2.2em;
+    line-height: 1.2;
+  }
+
+  .down-banner-search {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    margin-top: 20px;
+    border-radius: 0;
+    overflow: hidden;
+  }
+
+  .email {
+    width: 70%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+    outline: none;
+  }
+
+  .down-banner-button {
+    width: 30%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+  }
+
+  @media screen and (max-width: 576px) {
+   
+    .nav-bar {
+      max-width: 100%;
+      height: auto;
+      padding: 15px 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    .nav-logo {
+      height: 50px;
+      width: 85px;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .nav-content {
+      width: auto;
+      margin: 0;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .nav-list {
+      width: auto;
+      display: flex;
+      flex-direction: row;
+      gap: 0;
+      font-size: 1em;
+      padding: 0;
+      margin: 0;
+      align-items: flex-end;
+    }
+
+    .hide {
+      display: none;
+    }
+
+    .not-hidder {
+      display: block;
+    }
+
+   
+    .banner {
+      flex-direction: column;
+      max-width: 100%;
+      height: auto;
+      margin-top: 40px;
+      padding: 0 20px;
+      align-items: flex-start;
+      text-align: left;
+    }
+
+    .banner-details {
+      width: 100%;
+      height: auto;
+      order: 2;
+      text-align: left;
+    }
+
+    .banner-image {
+      width: 100%;
+      height: auto;
+      order: 1;
+      margin-bottom: 30px;
+    }
+
+    .banner-image img {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+    }
+
+    .banner-title {
+      font-size: 2.5em;
+      height: auto;
+      line-height: 1.2;
+      text-align: left;
+    }
+
+    .banner-description {
+      font-size: 1.1em;
+      height: auto;
+      margin-top: 20px;
+      text-align: left;
+    }
+
+ 
+    .plant-section {
+      margin: 60px auto;
+      max-width: 100%;
+      height: auto;
+      padding: 0 20px;
+    }
+
+    .plant-header {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 40px;
+    }
+
+    .plants-title {
+      font-size: 2.2em;
+      height: auto;
+    }
+
+    .plants-description {
+      font-size: 1em;
+      height: auto;
+      max-width: 100%;
+      margin-top: 15px;
+    }
+
+    .plants {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px 15px;
+      max-width: 100%;
+      height: auto;
+      margin-top: 30px;
+    }
+
+    .plant {
+      width: 100%;
+      height: auto;
+      max-width: 160px;
+      justify-self: center;
+    }
+
+    .plant-img {
+      width: 100%;
+      height: auto;
+    }
+
+    .plant-name {
+      font-size: 1em;
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .plant-price {
+      font-size: 1.1em;
+      width: 100%;
+      text-align: center;
+      margin-top: 5px;
+    }
+
+    .plant-buying-button {
+      width: 100%;
+      height: 40px;
+      font-size: 0.9em;
+      margin-top: 10px;
+      padding: 10px;
+    }
+
+  
+    .flower {
+      flex-direction: column;
+      margin: 60px auto;
+      max-width: 100%;
+      height: auto;
+      padding: 0 20px;
+      gap: 30px;
+    }
+
+    .flower-image-wrapper {
+      width: 100%;
+      order: 1;
+    }
+
+    .flower-store-image {
+      width: 100%;
+      height: auto;
+    }
+
+    .badge {
+      display: none;
+    }
+
+    .flower-details {
+      width: 100%;
+      height: auto;
+      text-align: left;
+      order: 2;
+      padding: 0 20px;
+    }
+
+    .flower-title {
+      font-size: 2.2em;
+      line-height: 1.2;
+      text-align: left;
+    }
+
+    .flower-list {
+      padding-left: 0;
+    }
+
+    .flower-description {
+      font-size: 1em;
+      margin-top: 15px;
+      text-align: left;
+    }
+
+   
+    .deals {
+      margin: 60px auto;
+      max-width: 100%;
+      height: auto;
+      padding: 0 20px;
+    }
+
+    .deal-title {
+      font-size: 2.2em;
+      width: 100%;
+      height: auto;
+    }
+
+    .deal-description {
+      font-size: 1em;
+      width: 100%;
+      height: auto;
+      margin-top: 15px;
+    }
+
+  
+    .plant-images {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      height: auto;
+      margin: 60px auto;
+      padding: 0 20px;
+      gap: 20px;
+      overflow: hidden;
+    }
+
+    .leftside-images {
+      width: 100%;
+      height: auto;
+      gap: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .rightside-image {
+      width: 100%;
+      height: auto;
+      position: relative;
+      overflow: hidden;
+      border-radius: 14px;
+    }
+
+    .plant-images-media {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .zabo-plant {
+      position: relative;
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      border-radius: 14px;
+    }
+
+    .zabo-wrapper {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 90%;
+      text-align: center;
+      font-size: 0.6em;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .zabo-plant-name {
+      font-size: 1.6em;
+      margin-bottom: 10px;
+      word-wrap: break-word;
+    }
+
+    .zabo-button {
+      font-size: 1.35em;
+      margin-top: -10px;
+      white-space: nowrap;
+    }
+
+  
+    .black-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 14px;
+      z-index: 1;
+    }
+
+  
+    .down-banner {
+      max-width: 100%;
+      height: auto;
+      margin: 60px auto 0;
+    }
+
+    .down-banner-img {
+      width: 100%;
+      height: auto;
+      min-height: 400px;
+      object-fit: cover;
+    }
+
+    .down-banner-details {
+      width: max-content;
+      height: auto;
+      padding: 20px;
+    }
+
+    .down-banner-title {
+      font-size: 1.4em;
+      line-height: 1.2;
+    }
+
+    .down-banner-search {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      flex-direction: row;
+      gap: 0;
+      margin-top: 20px;
+      border-radius: 0;
+      overflow: hidden;
+    }
+
+    .email {
+      width: 70%;
+      height: 50px;
+      font-size: 1em;
+      border: none;
+      border-radius: 0;
+      outline: none;
+    }
+
+    .down-banner-button {
+      width: 30%;
+      height: 50px;
+      font-size: 1em;
+      border: none;
+      border-radius: 0;
+    }
+
+  
+    .footer-main {
+      max-width: 100%;
+      height: auto;
+      padding: 40px 20px;
+    }
+
+    .footer-secondary {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      flex-direction: column;
+      gap: 40px;
+      text-align: left;
+    }
+
+    .footer-details {
+      width: 100%;
+      height: auto;
+      align-items: flex-start;
+    }
+
+    .footer-description {
+      width: 100%;
+      font-size: 1.1em;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+
+    .footer-list01,
+    .footer-list02 {
+      width: 100%;
+      height: auto;
+    }
+
+    .footer-list01 ul,
+    .footer-list02 ul {
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .footer-platform-logos {
+      width: 100%;
+      height: auto;
+      justify-content: flex-start;
+      gap: 20px;
+    }
+
+  
+    .inter-normal,
+    .noto-serif-normal {
+      line-height: 1.5;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    button,
+    .plant-buying-button,
+    .down-banner-button {
+      min-height: 44px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
