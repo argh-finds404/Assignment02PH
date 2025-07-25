@@ -216,7 +216,9 @@
   position: relative;
   width: 540px;
 }
-/* badge */
+
+
+/* badge part*/
 .badge {
   position: absolute;
   width: 286px;
@@ -262,5 +264,201 @@
   width: 888px;
   height: 54px;
   font-size: 1.3em;
+}
+
+
+
+/* plant picture section */
+.plant-images {
+  max-width: 1140px;
+  height: 423px;
+  margin: 120px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.plant-images img {
+  border-radius: 14px;
+}
+.leftside-images {
+  width: 367px;
+  height: 423px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.overlay-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.black-overlay {
+  position: absolute;
+  border-radius: 14px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.bloom-plant {
+  position: relative;
+}
+.bloom-wrapper {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  width: max-content;
+  white-space: nowrap;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
+}
+.bloom-button,
+.ana-button,
+.zabo-button {
+  color: white;
+  text-decoration: underline;
+}
+
+.bloom-plant-name {
+  color: white;
+  font-size: 1.3em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bloom-button {
+  color: white;
+  font-size: 1em;
+}
+.ana-plant {
+  position: relative;
+}
+.ana-wrapper {
+  position: absolute;
+  top: 100px;
+  left: 180px;
+  width: max-content; /* prevent shrinking */
+  white-space: nowrap; /* keep text in one line */
+  text-align: center;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.ana-plant-name {
+  color: white;
+  font-size: 1.3em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.ana-button {
+  color: white;
+  font-size: 1em;
+}
+
+
+.zabo-plant {
+  position: relative;
+}
+
+.zabo-wrapper {
+  position: absolute;
+  top: 200px;
+  left: 350px;
+  width: max-content; /* prevent shrinking */
+  white-space: nowrap; /* keep text in one line */
+  text-align: center;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.zabo-plant-name {
+  color: white;
+  font-size: 2.6em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.zabo-button {
+  color: white;
+  font-size: 1.7em;
+}
+
+.rightside-image {
+  width: 753px;
+  height: 423px;
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+/* Down-banner */
+.down-banner {
+  max-width: 1440px;
+  height: 533px;
+  margin: 120px auto 0px;
+}
+.down-banner-img-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.down-banner-img {
+  width: 1440px;
+  height: 533px;
+}
+
+.down-banner-details {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 830px;
+  height: 141px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.down-banner-title {
+  font-size: 3.55em;
+  color: #ffffff;
+}
+.down-banner-search {
+  width: 830px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.email {
+  padding: 15px;
+  width: 644px;
+  height: 50px;
+  font-size: 0.99em;
+}
+.down-banner-button {
+  width: 186px;
+  height: 50px;
+  background-color: #e95a08;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
 }
 
