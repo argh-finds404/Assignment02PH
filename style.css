@@ -114,3 +114,153 @@
   font-size: 1.45em;
   font-weight: 400;
 }
+
+
+.plant-section {
+  margin: 120px auto;
+  max-width: 1140px;
+  height: 1186px;
+  display: flex;
+  flex-direction: column;
+}
+
+.plant-header {
+  max-width: 1140px;
+  height: 138px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plants-title {
+  max-width: 1140px;
+  height: 68px;
+  text-align: center;
+  font-size: 3.2em;
+}
+
+.plants-description {
+  margin-top: 16px;
+
+  max-width: 888px;
+  height: 54px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.plants {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 30px;
+  column-gap: 20px;
+  max-width: 1140px;
+  height: 1000px;
+}
+
+.plant {
+  width: 270px;
+  height: 485px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plant-name {
+  margin-top: -20px;
+  font-size: 1.2em;
+  font-weight: 500;
+  height: 16px;
+  width: 132px;
+}
+.plant-price {
+  margin-top: -20px;
+  font-size: 1.3em;
+  font-weight: 700;
+  height: 16px;
+  width: 81px;
+}
+.plant-buying-button {
+  margin-top: -15px;
+  width: 270px;
+  height: 50px;
+  background-color: #e95a08;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 600;
+  border: none;
+  padding: 18px 49.5px;
+}
+
+
+
+
+/* flower section */
+.flower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 210px auto 100px;
+  max-width: 1140px;
+  height: 597px;
+}
+
+.flower-store-image {
+  width: 540px;
+  height: 597px;
+}
+
+.flower-image-wrapper {
+  position: relative;
+  width: 540px;
+}
+/* badge */
+.badge {
+  position: absolute;
+  width: 286px;
+  height: 286px;
+  top: -122px;
+  left: 360px;
+  z-index: 10;
+}
+.flower-details {
+  width: 540px;
+  height: 521px;
+}
+
+.flower-title {
+  font-size: 3.55em;
+}
+
+.flower-description {
+  margin-top: 20px;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.deals {
+  margin: 30px auto;
+  max-width: 1440px;
+  height: 138px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.deal-title {
+  width: 1440px;
+  height: 68px;
+  font-size: 3.55em;
+}
+
+.deal-description {
+  margin-top: 20px;
+  font-weight: 400;
+  width: 888px;
+  height: 54px;
+  font-size: 1.3em;
+}
+
